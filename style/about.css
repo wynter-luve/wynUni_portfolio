@@ -1163,6 +1163,13 @@ footer.contact_wrap{
   .footer_bottom .sns li{
     width: 40px;
   }
+    /* 아트워크영역 */
+    section.contents_artwork{
+      min-height: 600px;
+    }
+    .art_title li.on::after{
+      width: 35px; height: 35px; left: -20px;
+    }
 }
 /* 1230px */
 @media screen and (max-width: 1229px){
@@ -1243,6 +1250,20 @@ footer.contact_wrap{
   .footer_bottom .sns li{
     width: 35px;
   }
+}
+
+/* 아트워크영역 */
+.art_title{
+  width: 50%;
+}
+.art_title li{
+  font-size: 4.5vw;
+}
+.art_img{
+  width: 50%;
+}
+.art_img li{
+  width: 90%;
 }
 
 /* 타블렛 1024px */
@@ -1354,6 +1375,17 @@ footer.contact_wrap{
   .footer_top > .visual_my:hover .mySec{
     transform: translateY(-128px);
   }
+   /* 아트워크영역 */
+   .art_img li{
+    width: 100%;
+  }
+  .art_title li{
+    font-size: 5.5vw;
+  }
+  .art_title li.on::after{
+    left: -25px;
+    width: 30px; height: 30px;
+  }
 }
 
 /* 모바일 768px */
@@ -1434,6 +1466,19 @@ footer.contact_wrap{
   }
   .contents_timeline .end .end_txt{
     font-size: 1.6rem;
+  }
+  .art_title li{
+    padding-left: 0;
+    font-size: 6.5vw;
+  }
+  .art_title{
+    height: 80%;
+  }
+  .art_title li.on{
+    text-decoration: underline;
+  }
+  .art_title li.on::after{
+    display: none;
   }
   /* 취미영역 */
   section.contents_hobby{
@@ -1544,6 +1589,28 @@ footer.contact_wrap{
   #cursor{
     display: none;
   }
+    /* 아트워크영역 */
+    section.contents_artwork{
+      height: 110vh;
+      flex-direction: column;
+    }
+    .art_img{
+      width: 100%; height: 70%;
+      overflow: hidden;
+      justify-content: center;
+    }
+    .art_img li{
+      width: 75%; margin: 0 auto;
+      height: 100%;
+    }
+    .art_title{
+      width: 100%; height: 30%;
+      padding: 205px 0 0;
+      margin-bottom: 0px;
+    }
+    .art_title li{
+      font-size: 9vw;
+    }
   /* 헤더영역 */
   .header_inner .logo a{
     width: 35px; height: 35px;
