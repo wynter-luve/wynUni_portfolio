@@ -20,7 +20,7 @@ $(document).ready(function(){
 /* 아트워크영역의 이미지 시간차로 변하게하기 */
 // art
 var artImage = document.getElementById("artImage");
-var artImageArray = ["../img/art_01.jpg","../img/art_02.jpg","../img/art_03.jpeg","../img/art_04.jpeg","../img/art_05.png","../img/art_06.jpeg","../img/art_07.JPG","../img/art_08.JPG","../img/art_09.png","../img/art_10.jpg","../img/art_11.png"]
+var artImageArray = ["./img/art_01.jpg","./img/art_02.jpg","./img/art_03.jpeg","./img/art_04.jpeg","./img/art_05.png","./img/art_06.jpeg","./img/art_07.JPG","./img/art_08.JPG","./img/art_09.png","./img/art_10.jpg","./img/art_11.png"]
 var artImageIndex = 0;
 
 function artChangeImage(){
@@ -34,7 +34,7 @@ setInterval(drawChangeImage, 1200);
 
 // draw
 var drawImage = document.getElementById("drawImage");
-var drawImageArray = ["../img/draw_01.jpg","../img/draw_02.jpg","../img/draw_03.jpg","../img/draw_04.jpg","../img/draw_05.jpg","../img/draw_06.jpg","../img/draw_07.jpg","../img/draw_08.png","../img/draw_09.png","../img/draw_10.jpg","../img/draw_11.jpg","../img/draw_12.jpg","../img/draw_13.jpg","../img/draw_14.jpg","../img/draw_15.jpg","../img/draw_16.JPG"]
+var drawImageArray = ["./img/draw_01.jpg","./img/draw_02.jpg","./img/draw_03.jpg","./img/draw_04.jpg","./img/draw_05.jpg","./img/draw_06.jpg","./img/draw_07.jpg","./img/draw_08.png","./img/draw_09.png","./img/draw_10.jpg","./img/draw_11.jpg","./img/draw_12.jpg","./img/draw_13.jpg","./img/draw_14.jpg","./img/draw_15.jpg","./img/draw_16.JPG"]
 var drawImageIndex = 0;
 
 function drawChangeImage(){
@@ -48,7 +48,7 @@ setInterval(artChangeImage, 1200);
 
 // ill
 var illImage = document.getElementById("illImage");
-var illImageArray = ["../img/ill_01.png","../img/ill_03.png","../img/ill_04.png","../img/ill_05.png","../img/ill_06.png","../img/ill_07.png","../img/ill_08.png","../img/ill_09.png","../img/ill_10.jpg","../img/ill_11.png","../img/ill_12.png"]
+var illImageArray = ["./img/ill_01.png","./img/ill_03.png","./img/ill_04.png","./img/ill_05.png","./img/ill_06.png","./img/ill_07.png","./img/ill_08.png","./img/ill_09.png","./img/ill_10.jpg","./img/ill_11.png","./img/ill_12.png"]
 var illImageIndex = 0;
 
 function illChangeImage(){
